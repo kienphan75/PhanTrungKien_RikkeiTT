@@ -47,6 +47,71 @@
             </objects>
             <point key="canvasLocation" x="244" y="-701"/>
         </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="fYd-DG-aSc">
+            <objects>
+                <viewController storyboardIdentifier="DetailViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9nG-2f-xWg" customClass="DetailViewController" customModule="TrainingExe10" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="i4O-2B-zFl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="trackName :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZN-Dw-9PP">
+                                <rect key="frame" x="50" y="120" width="93" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehv-sf-Sgg">
+                                <rect key="frame" x="168" y="120" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="artistName :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3JD-UF-0sN">
+                                <rect key="frame" x="50" y="166" width="94" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x03-hq-D10">
+                                <rect key="frame" x="169" y="166" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FE2-Do-kA3">
+                                <rect key="frame" x="87.5" y="247" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="kRE-3f-Mef"/>
+                                    <constraint firstAttribute="width" constant="200" id="ugj-DM-ezz"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3JD-UF-0sN" firstAttribute="top" secondItem="iZN-Dw-9PP" secondAttribute="bottom" constant="25" id="5LG-9L-xxR"/>
+                            <constraint firstItem="x03-hq-D10" firstAttribute="leading" secondItem="3JD-UF-0sN" secondAttribute="trailing" constant="25" id="DM2-nf-lbn"/>
+                            <constraint firstItem="iZN-Dw-9PP" firstAttribute="top" secondItem="pU1-Yd-iYk" secondAttribute="top" constant="100" id="EjN-0Z-YdW"/>
+                            <constraint firstItem="3JD-UF-0sN" firstAttribute="leading" secondItem="pU1-Yd-iYk" secondAttribute="leading" constant="50" id="OUP-ys-3vJ"/>
+                            <constraint firstItem="FE2-Do-kA3" firstAttribute="centerX" secondItem="i4O-2B-zFl" secondAttribute="centerX" id="TzZ-HX-igd"/>
+                            <constraint firstItem="ehv-sf-Sgg" firstAttribute="top" secondItem="pU1-Yd-iYk" secondAttribute="top" constant="100" id="V9P-5C-XiX"/>
+                            <constraint firstItem="x03-hq-D10" firstAttribute="centerY" secondItem="3JD-UF-0sN" secondAttribute="centerY" id="hJv-mx-yFK"/>
+                            <constraint firstItem="iZN-Dw-9PP" firstAttribute="leading" secondItem="pU1-Yd-iYk" secondAttribute="leading" constant="50" id="ket-cR-DTH"/>
+                            <constraint firstItem="ehv-sf-Sgg" firstAttribute="leading" secondItem="iZN-Dw-9PP" secondAttribute="trailing" constant="25" id="nFF-jO-nch"/>
+                            <constraint firstItem="FE2-Do-kA3" firstAttribute="top" secondItem="3JD-UF-0sN" secondAttribute="bottom" constant="60" id="oPi-tN-Ibr"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pU1-Yd-iYk"/>
+                    </view>
+                    <connections>
+                        <outlet property="image" destination="FE2-Do-kA3" id="0C4-Qs-k89"/>
+                        <outlet property="lbArtistName" destination="x03-hq-D10" id="R5c-Wv-WqO"/>
+                        <outlet property="lbTrackName" destination="ehv-sf-Sgg" id="E4W-of-9UA"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c07-En-8Nn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1197.5999999999999" y="-924.28785607196414"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>

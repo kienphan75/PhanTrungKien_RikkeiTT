@@ -13,6 +13,7 @@ class Media: NSObject {
     var trackName : String?
     var artworkUrl100 : String?
     var trackTimeMillis: Int?
+    var image : UIImage?
     
     init(json : [String: Any]){
         if let artistName = json["artistName"]{

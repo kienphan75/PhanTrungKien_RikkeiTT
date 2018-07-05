@@ -19,6 +19,7 @@
 		BCC196E720EDCCF900A08D94 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC196E620EDCCF900A08D94 /* ListTableViewCell.swift */; };
 		BCC196EB20EDCD8E00A08D94 /* Media.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC196EA20EDCD8E00A08D94 /* Media.swift */; };
 		BCC196F120EDD01300A08D94 /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCC196F020EDD01300A08D94 /* NetWorkManager.swift */; };
+		BCD3329B20EDF5B2009EC5B4 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCD3329A20EDF5B2009EC5B4 /* DetailViewController.swift */; };
 		EA54812C869840063614095D /* Pods_TrainingExe10.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C46AC94AFB8D046630240AA /* Pods_TrainingExe10.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		BCC196E620EDCCF900A08D94 /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		BCC196EA20EDCD8E00A08D94 /* Media.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Media.swift; path = ../../../TrainingExe89/TrainingExe89/Model/Media.swift; sourceTree = "<group>"; };
 		BCC196F020EDD01300A08D94 /* NetWorkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
+		BCD3329A20EDF5B2009EC5B4 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				BCC196A920EDB32F00A08D94 /* ViewController.swift */,
 				BCC196BA20EDB50F00A08D94 /* SlideLeftController.swift */,
 				BCC196E320EDC5EF00A08D94 /* ListViewController.swift */,
+				BCD3329A20EDF5B2009EC5B4 /* DetailViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 				BCC196A820EDB32F00A08D94 /* AppDelegate.swift in Sources */,
 				BCC196F120EDD01300A08D94 /* NetWorkManager.swift in Sources */,
 				BCC196E220EDC32F00A08D94 /* ExtensUIColor.swift in Sources */,
+				BCD3329B20EDF5B2009EC5B4 /* DetailViewController.swift in Sources */,
 				BCC196DF20EDC1AA00A08D94 /* UnderLineView.swift in Sources */,
 				BCC196EB20EDCD8E00A08D94 /* Media.swift in Sources */,
 			);

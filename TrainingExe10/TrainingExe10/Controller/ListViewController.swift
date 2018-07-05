@@ -66,9 +66,12 @@ class ListViewController: UIViewController , UITableViewDataSource, UITableViewD
                     let mimeType = response?.mimeType, mimeType.hasPrefix("image"),
                     let data = data, error == nil,
                     let image = UIImage(data: data)
+                    
                     else { return }
                 DispatchQueue.main.async() {
+                    self.arrMedia[indexPath.row].image = image
                     cell.imgThum.image = image
+                    
                 }
             }.resume()
         }
@@ -79,6 +82,13 @@ class ListViewController: UIViewController , UITableViewDataSource, UITableViewD
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 150
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let media = arrMedia[indexPath.row]
+        let controllerDetail = storyboard?.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
+        controllerDetail.media = media
+        navigationController?.pushViewController(controllerDetail, animated: true)
     }
     
     func updateData(list: [Media]) {
