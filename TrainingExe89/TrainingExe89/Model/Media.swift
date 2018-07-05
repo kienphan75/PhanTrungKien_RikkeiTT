@@ -2,22 +2,13 @@
 //  Music.swift
 //  TrainingExe89
 //
-//  Created by Trung Kien on 7/5/18.
-//  Copyright © 2018 Trung Kien. All rights reserved.
-//
-
-import Foundation
-//
-//  Music.swift
-//  TrainingExe89
-//
 //  Created by Trung Kien on 7/4/18.
 //  Copyright © 2018 Trung Kien. All rights reserved.
 //
 
 import UIKit
 
-class Music: NSObject {
+class Media: NSObject {
     var artistName : String?
     var trackName : String?
     var artworkUrl100 : String?

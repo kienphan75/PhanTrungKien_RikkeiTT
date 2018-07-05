@@ -1,0 +1,771 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05ED5B55D8AAD30623AEB9B36430D576 /* KYEmbedMainControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 320665EF3FF8E91A8655FC5F1E6DF69E /* KYEmbedMainControllerSegue.swift */; };
+		0B4A5F98ADBE5F9F8F915F3017FCB9F8 /* BmoViewPager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A3DEDFD0BE7087964D2CC18DB575F0E /* BmoViewPager-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1458888A541BE3A002BFD938B931626A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		16F00B0FCADA97D7962CA15ED1C123AB /* String+BmoViewPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D15FFAA97981D48B81E556AD90EBFC /* String+BmoViewPager.swift */; };
+		1DA48DFB6D480E80E14403E2124DE138 /* BmoDoubleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC6E7F85BE2539BB25D0047A3F3904D /* BmoDoubleLabel.swift */; };
+		22AAC98FD37A91E297451398C4230783 /* BmoViewPagerNavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64E9414B783FDB1FA9BFB4BFF042A25D /* BmoViewPagerNavigationBar.swift */; };
+		313916EB693450FDB72691620AEE082D /* BmoViewPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00551607ADDE301E7754F1B6C6842590 /* BmoViewPager.swift */; };
+		50339AF284B0DB6295378C780A2ACB76 /* BmoPageItemListLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E69A0DBAE3068C0150BC265A9986560 /* BmoPageItemListLayout.swift */; };
+		5FC40F18DBFFCACF3FA032B58571B781 /* KYDrawerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B112968F088CD640005865D9CFC06200 /* KYDrawerController-dummy.m */; };
+		62B449845871F8DA880D40BE4935EC56 /* KYDrawerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CE69269C628DC4291D2232027A7FC7BB /* KYDrawerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A49FF844349BAED8566C79B45C14CBD /* UIView+BmoViewPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C77F6A09CDCB2BB04085E5E636B2D6D /* UIView+BmoViewPager.swift */; };
+		6AD875BCD993EB7CD3FB369B273FEE4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		74417AE31C05EB034ED4D0863076437B /* BmoViewPager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D6582ACFD369F029B4F6857A3C38159 /* BmoViewPager-dummy.m */; };
+		74EBEC8F9277C0056FF08F806E75EB4F /* KYDrawerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55CDDC9C4AC91E51CCEEF82ACA23F5CB /* KYDrawerController.swift */; };
+		85F3147D7AC2189D02199F9D5F8D906D /* Pods-TrainingExe10-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B10BF119945F899011064E8E733A3303 /* Pods-TrainingExe10-dummy.m */; };
+		9ADA0018CADA4202470661F84A06EF8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		D4426ADE87D281DD3911B17B2D19F676 /* Array+BmoViewPager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24EA6058F98262B48BA4E2D299980D1C /* Array+BmoViewPager.swift */; };
+		E6DB69CDF48D169DE721F1387E850D04 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		E9EF662986948A075F91F79BBFA6BC8F /* BmoPageItemList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01EFF262DC6BD986A48DB139A922F3C5 /* BmoPageItemList.swift */; };
+		EA09D85A8732F75EB1ABCB8CF665E9FE /* Pods-TrainingExe10-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06EF71C80C2906D7586B50D55826DCA0 /* Pods-TrainingExe10-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5A602B729B394E303BDDABB91137EDE /* BmoPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C57999765E74AD0801E46B6D2C1A1F36 /* BmoPageViewController.swift */; };
+		FE020C0F86B9EBDE87399EC0136682FE /* KYEmbedDrawerControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52942BB7018AB843D73A12F7CDE7E6B /* KYEmbedDrawerControllerSegue.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49E492517F164B9418C5223395C74FFB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7AF8670FDECF80EFCAA3D04318C4B4D1;
+			remoteInfo = KYDrawerController;
+		};
+		95D38FFBDF9EBE4F39F3A1D789A99EA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D1C559495CE4AFBED7047A0E169FE0FD;
+			remoteInfo = BmoViewPager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00551607ADDE301E7754F1B6C6842590 /* BmoViewPager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BmoViewPager.swift; path = BmoViewPager/Classes/BmoViewPager.swift; sourceTree = "<group>"; };
+		01EFF262DC6BD986A48DB139A922F3C5 /* BmoPageItemList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BmoPageItemList.swift; path = BmoViewPager/Classes/BmoPageItemList.swift; sourceTree = "<group>"; };
+		06EF71C80C2906D7586B50D55826DCA0 /* Pods-TrainingExe10-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TrainingExe10-umbrella.h"; sourceTree = "<group>"; };
+		0E69A0DBAE3068C0150BC265A9986560 /* BmoPageItemListLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BmoPageItemListLayout.swift; path = BmoViewPager/Classes/BmoPageItemListLayout.swift; sourceTree = "<group>"; };
+		0ECBFEFF7A6FCFB8FED96C98654CD8F1 /* Pods-TrainingExe10-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrainingExe10-frameworks.sh"; sourceTree = "<group>"; };
+		148312C9E989D3BD75B252C2B8C9F722 /* KYDrawerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = KYDrawerController.modulemap; sourceTree = "<group>"; };
+		1A3DEDFD0BE7087964D2CC18DB575F0E /* BmoViewPager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BmoViewPager-umbrella.h"; sourceTree = "<group>"; };
+		1AB21EA8EB649A490BAED899A864CF91 /* Pods-TrainingExe10-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TrainingExe10-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1B29367E3D47A8E2F335B6F4AF61B98C /* BmoViewPager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BmoViewPager-prefix.pch"; sourceTree = "<group>"; };
+		24EA6058F98262B48BA4E2D299980D1C /* Array+BmoViewPager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Array+BmoViewPager.swift"; path = "BmoViewPager/Classes/Extension/Array+BmoViewPager.swift"; sourceTree = "<group>"; };
+		2C77F6A09CDCB2BB04085E5E636B2D6D /* UIView+BmoViewPager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+BmoViewPager.swift"; path = "BmoViewPager/Classes/Extension/UIView+BmoViewPager.swift"; sourceTree = "<group>"; };
+		3063466CE1D1CFB7154E71CD2A59FC1D /* KYDrawerController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KYDrawerController.framework; path = KYDrawerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		320665EF3FF8E91A8655FC5F1E6DF69E /* KYEmbedMainControllerSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYEmbedMainControllerSegue.swift; path = KYDrawerController/Classes/KYEmbedMainControllerSegue.swift; sourceTree = "<group>"; };
+		3D35BCDEBE8996BB1F67D7514A5B34EF /* Pods_TrainingExe10.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TrainingExe10.framework; path = "Pods-TrainingExe10.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42DB4C381343E2332E0FD7A7CEF7C4E2 /* Pods-TrainingExe10.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrainingExe10.release.xcconfig"; sourceTree = "<group>"; };
+		43FF06854F6EAD783EA5C7D3F62DE4D4 /* KYDrawerController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KYDrawerController.xcconfig; sourceTree = "<group>"; };
+		44D15FFAA97981D48B81E556AD90EBFC /* String+BmoViewPager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+BmoViewPager.swift"; path = "BmoViewPager/Classes/Extension/String+BmoViewPager.swift"; sourceTree = "<group>"; };
+		47EA8873720404E829233DFDAE6EAAB5 /* BmoViewPager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BmoViewPager.framework; path = BmoViewPager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53CA3C623921CE5E911F66A890C03B9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55CDDC9C4AC91E51CCEEF82ACA23F5CB /* KYDrawerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYDrawerController.swift; path = KYDrawerController/Classes/KYDrawerController.swift; sourceTree = "<group>"; };
+		5EF4428A8D27DB1001EE00904CB91689 /* BmoViewPager.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BmoViewPager.xcconfig; sourceTree = "<group>"; };
+		64E9414B783FDB1FA9BFB4BFF042A25D /* BmoViewPagerNavigationBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BmoViewPagerNavigationBar.swift; path = BmoViewPager/Classes/BmoViewPagerNavigationBar.swift; sourceTree = "<group>"; };
+		66D87F66849A86F7919D66197046B639 /* Pods-TrainingExe10.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TrainingExe10.debug.xcconfig"; sourceTree = "<group>"; };
+		7DEF6CA9E925ED02AC5E7AB1AA6C2117 /* Pods-TrainingExe10-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TrainingExe10-acknowledgements.plist"; sourceTree = "<group>"; };
+		879822FE4CEFD93D3F8F36D157E3D92C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		964C5F8D0FB3856D37DA7E957CE215CC /* Pods-TrainingExe10-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TrainingExe10-resources.sh"; sourceTree = "<group>"; };
+		9D6582ACFD369F029B4F6857A3C38159 /* BmoViewPager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BmoViewPager-dummy.m"; sourceTree = "<group>"; };
+		A52942BB7018AB843D73A12F7CDE7E6B /* KYEmbedDrawerControllerSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KYEmbedDrawerControllerSegue.swift; path = KYDrawerController/Classes/KYEmbedDrawerControllerSegue.swift; sourceTree = "<group>"; };
+		B10BF119945F899011064E8E733A3303 /* Pods-TrainingExe10-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TrainingExe10-dummy.m"; sourceTree = "<group>"; };
+		B112968F088CD640005865D9CFC06200 /* KYDrawerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KYDrawerController-dummy.m"; sourceTree = "<group>"; };
+		B577AD1C83DEE75B8B6695F2168CFE96 /* KYDrawerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYDrawerController-prefix.pch"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BDC6E7F85BE2539BB25D0047A3F3904D /* BmoDoubleLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BmoDoubleLabel.swift; path = BmoViewPager/Classes/CustomView/BmoDoubleLabel.swift; sourceTree = "<group>"; };
+		BE01F9655502662EAE4C9C7787BBE7C1 /* Pods-TrainingExe10.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TrainingExe10.modulemap"; sourceTree = "<group>"; };
+		C57999765E74AD0801E46B6D2C1A1F36 /* BmoPageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BmoPageViewController.swift; path = BmoViewPager/Classes/BmoPageViewController.swift; sourceTree = "<group>"; };
+		CE69269C628DC4291D2232027A7FC7BB /* KYDrawerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KYDrawerController-umbrella.h"; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DA84C82B7FCB5C1C5BE9D053BD55D200 /* BmoViewPager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = BmoViewPager.modulemap; sourceTree = "<group>"; };
+		DA973DD196D0DE13F60CA3EF0A3CFE04 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		086401E2F60DFEFBE16EED6582B5B52B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1458888A541BE3A002BFD938B931626A /* Foundation.framework in Frameworks */,
+				E6DB69CDF48D169DE721F1387E850D04 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9FB1EF2F8A9886B7F0713F557C0356DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AD875BCD993EB7CD3FB369B273FEE4B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A11E6369FA800E28F6887CDDF7573257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ADA0018CADA4202470661F84A06EF8D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01EE1B5B4592904C41C31250F773AC3F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA84C82B7FCB5C1C5BE9D053BD55D200 /* BmoViewPager.modulemap */,
+				5EF4428A8D27DB1001EE00904CB91689 /* BmoViewPager.xcconfig */,
+				9D6582ACFD369F029B4F6857A3C38159 /* BmoViewPager-dummy.m */,
+				1B29367E3D47A8E2F335B6F4AF61B98C /* BmoViewPager-prefix.pch */,
+				1A3DEDFD0BE7087964D2CC18DB575F0E /* BmoViewPager-umbrella.h */,
+				DA973DD196D0DE13F60CA3EF0A3CFE04 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BmoViewPager";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7A4241E9EFCFB9DDA44B8E1036F36758 /* Pods-TrainingExe10 */ = {
+			isa = PBXGroup;
+			children = (
+				879822FE4CEFD93D3F8F36D157E3D92C /* Info.plist */,
+				BE01F9655502662EAE4C9C7787BBE7C1 /* Pods-TrainingExe10.modulemap */,
+				1AB21EA8EB649A490BAED899A864CF91 /* Pods-TrainingExe10-acknowledgements.markdown */,
+				7DEF6CA9E925ED02AC5E7AB1AA6C2117 /* Pods-TrainingExe10-acknowledgements.plist */,
+				B10BF119945F899011064E8E733A3303 /* Pods-TrainingExe10-dummy.m */,
+				0ECBFEFF7A6FCFB8FED96C98654CD8F1 /* Pods-TrainingExe10-frameworks.sh */,
+				964C5F8D0FB3856D37DA7E957CE215CC /* Pods-TrainingExe10-resources.sh */,
+				06EF71C80C2906D7586B50D55826DCA0 /* Pods-TrainingExe10-umbrella.h */,
+				66D87F66849A86F7919D66197046B639 /* Pods-TrainingExe10.debug.xcconfig */,
+				42DB4C381343E2332E0FD7A7CEF7C4E2 /* Pods-TrainingExe10.release.xcconfig */,
+			);
+			name = "Pods-TrainingExe10";
+			path = "Target Support Files/Pods-TrainingExe10";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				C469FEB03C9E45542159C84E04C334F1 /* Pods */,
+				B64762FB5BF4D00440481958C9ABBE60 /* Products */,
+				B2C18721C6F420A8DFA9CF4AA2B9AF11 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9A1F9684D70690C616ABED35D6FEE4AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				53CA3C623921CE5E911F66A890C03B9D /* Info.plist */,
+				148312C9E989D3BD75B252C2B8C9F722 /* KYDrawerController.modulemap */,
+				43FF06854F6EAD783EA5C7D3F62DE4D4 /* KYDrawerController.xcconfig */,
+				B112968F088CD640005865D9CFC06200 /* KYDrawerController-dummy.m */,
+				B577AD1C83DEE75B8B6695F2168CFE96 /* KYDrawerController-prefix.pch */,
+				CE69269C628DC4291D2232027A7FC7BB /* KYDrawerController-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KYDrawerController";
+			sourceTree = "<group>";
+		};
+		9E5869D143C316A165D3B54CAB67DBD7 /* KYDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				55CDDC9C4AC91E51CCEEF82ACA23F5CB /* KYDrawerController.swift */,
+				A52942BB7018AB843D73A12F7CDE7E6B /* KYEmbedDrawerControllerSegue.swift */,
+				320665EF3FF8E91A8655FC5F1E6DF69E /* KYEmbedMainControllerSegue.swift */,
+				9A1F9684D70690C616ABED35D6FEE4AE /* Support Files */,
+			);
+			name = KYDrawerController;
+			path = KYDrawerController;
+			sourceTree = "<group>";
+		};
+		B2C18721C6F420A8DFA9CF4AA2B9AF11 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A4241E9EFCFB9DDA44B8E1036F36758 /* Pods-TrainingExe10 */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B64762FB5BF4D00440481958C9ABBE60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47EA8873720404E829233DFDAE6EAAB5 /* BmoViewPager.framework */,
+				3063466CE1D1CFB7154E71CD2A59FC1D /* KYDrawerController.framework */,
+				3D35BCDEBE8996BB1F67D7514A5B34EF /* Pods_TrainingExe10.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C469FEB03C9E45542159C84E04C334F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EB1EBB0481747D0858B4471AEEC1B572 /* BmoViewPager */,
+				9E5869D143C316A165D3B54CAB67DBD7 /* KYDrawerController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB1EBB0481747D0858B4471AEEC1B572 /* BmoViewPager */ = {
+			isa = PBXGroup;
+			children = (
+				24EA6058F98262B48BA4E2D299980D1C /* Array+BmoViewPager.swift */,
+				BDC6E7F85BE2539BB25D0047A3F3904D /* BmoDoubleLabel.swift */,
+				01EFF262DC6BD986A48DB139A922F3C5 /* BmoPageItemList.swift */,
+				0E69A0DBAE3068C0150BC265A9986560 /* BmoPageItemListLayout.swift */,
+				C57999765E74AD0801E46B6D2C1A1F36 /* BmoPageViewController.swift */,
+				00551607ADDE301E7754F1B6C6842590 /* BmoViewPager.swift */,
+				64E9414B783FDB1FA9BFB4BFF042A25D /* BmoViewPagerNavigationBar.swift */,
+				44D15FFAA97981D48B81E556AD90EBFC /* String+BmoViewPager.swift */,
+				2C77F6A09CDCB2BB04085E5E636B2D6D /* UIView+BmoViewPager.swift */,
+				01EE1B5B4592904C41C31250F773AC3F /* Support Files */,
+			);
+			name = BmoViewPager;
+			path = BmoViewPager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1860FAC72484A6E6C367934E3C3FE577 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA09D85A8732F75EB1ABCB8CF665E9FE /* Pods-TrainingExe10-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34C062238D1B197B86214D2A96A0B932 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B4A5F98ADBE5F9F8F915F3017FCB9F8 /* BmoViewPager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F522C0522F6102E735FC7B74623D435 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B449845871F8DA880D40BE4935EC56 /* KYDrawerController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7AF8670FDECF80EFCAA3D04318C4B4D1 /* KYDrawerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 235787AAA4D655650FA93DB4FB2D308A /* Build configuration list for PBXNativeTarget "KYDrawerController" */;
+			buildPhases = (
+				1BA042EDEFD683F56F2F5063EC1B98EB /* Sources */,
+				9FB1EF2F8A9886B7F0713F557C0356DF /* Frameworks */,
+				8F522C0522F6102E735FC7B74623D435 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KYDrawerController;
+			productName = KYDrawerController;
+			productReference = 3063466CE1D1CFB7154E71CD2A59FC1D /* KYDrawerController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D1C559495CE4AFBED7047A0E169FE0FD /* BmoViewPager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8925568428C81559EBDDB328E37619FF /* Build configuration list for PBXNativeTarget "BmoViewPager" */;
+			buildPhases = (
+				48FACBF937C7F4025EF84F5248D09D16 /* Sources */,
+				086401E2F60DFEFBE16EED6582B5B52B /* Frameworks */,
+				34C062238D1B197B86214D2A96A0B932 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BmoViewPager;
+			productName = BmoViewPager;
+			productReference = 47EA8873720404E829233DFDAE6EAAB5 /* BmoViewPager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6BE6EA6F3B59911B605622AEC21B682 /* Pods-TrainingExe10 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBA138B07DCC9F423CF3BD3EE011D92D /* Build configuration list for PBXNativeTarget "Pods-TrainingExe10" */;
+			buildPhases = (
+				77B53BED16CD63530054EA02EC3CAC82 /* Sources */,
+				A11E6369FA800E28F6887CDDF7573257 /* Frameworks */,
+				1860FAC72484A6E6C367934E3C3FE577 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13DF23F019D1B8E8C1F8F36BB4561A15 /* PBXTargetDependency */,
+				6F782B5C6C7A5CFDF3DC713F9866D645 /* PBXTargetDependency */,
+			);
+			name = "Pods-TrainingExe10";
+			productName = "Pods-TrainingExe10";
+			productReference = 3D35BCDEBE8996BB1F67D7514A5B34EF /* Pods_TrainingExe10.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B64762FB5BF4D00440481958C9ABBE60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1C559495CE4AFBED7047A0E169FE0FD /* BmoViewPager */,
+				7AF8670FDECF80EFCAA3D04318C4B4D1 /* KYDrawerController */,
+				F6BE6EA6F3B59911B605622AEC21B682 /* Pods-TrainingExe10 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1BA042EDEFD683F56F2F5063EC1B98EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC40F18DBFFCACF3FA032B58571B781 /* KYDrawerController-dummy.m in Sources */,
+				74EBEC8F9277C0056FF08F806E75EB4F /* KYDrawerController.swift in Sources */,
+				FE020C0F86B9EBDE87399EC0136682FE /* KYEmbedDrawerControllerSegue.swift in Sources */,
+				05ED5B55D8AAD30623AEB9B36430D576 /* KYEmbedMainControllerSegue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48FACBF937C7F4025EF84F5248D09D16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4426ADE87D281DD3911B17B2D19F676 /* Array+BmoViewPager.swift in Sources */,
+				1DA48DFB6D480E80E14403E2124DE138 /* BmoDoubleLabel.swift in Sources */,
+				E9EF662986948A075F91F79BBFA6BC8F /* BmoPageItemList.swift in Sources */,
+				50339AF284B0DB6295378C780A2ACB76 /* BmoPageItemListLayout.swift in Sources */,
+				F5A602B729B394E303BDDABB91137EDE /* BmoPageViewController.swift in Sources */,
+				74417AE31C05EB034ED4D0863076437B /* BmoViewPager-dummy.m in Sources */,
+				313916EB693450FDB72691620AEE082D /* BmoViewPager.swift in Sources */,
+				22AAC98FD37A91E297451398C4230783 /* BmoViewPagerNavigationBar.swift in Sources */,
+				16F00B0FCADA97D7962CA15ED1C123AB /* String+BmoViewPager.swift in Sources */,
+				6A49FF844349BAED8566C79B45C14CBD /* UIView+BmoViewPager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77B53BED16CD63530054EA02EC3CAC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85F3147D7AC2189D02199F9D5F8D906D /* Pods-TrainingExe10-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13DF23F019D1B8E8C1F8F36BB4561A15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BmoViewPager;
+			target = D1C559495CE4AFBED7047A0E169FE0FD /* BmoViewPager */;
+			targetProxy = 95D38FFBDF9EBE4F39F3A1D789A99EA2 /* PBXContainerItemProxy */;
+		};
+		6F782B5C6C7A5CFDF3DC713F9866D645 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KYDrawerController;
+			target = 7AF8670FDECF80EFCAA3D04318C4B4D1 /* KYDrawerController */;
+			targetProxy = 49E492517F164B9418C5223395C74FFB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ED02B907ABD0F4DE5DB86F798CEB109 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EF4428A8D27DB1001EE00904CB91689 /* BmoViewPager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BmoViewPager/BmoViewPager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BmoViewPager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BmoViewPager/BmoViewPager.modulemap";
+				PRODUCT_NAME = BmoViewPager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33490196A4E3EF18B285AF25083DE047 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EF4428A8D27DB1001EE00904CB91689 /* BmoViewPager.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BmoViewPager/BmoViewPager-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BmoViewPager/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/BmoViewPager/BmoViewPager.modulemap";
+				PRODUCT_NAME = BmoViewPager;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37F8F4E6AF39ED0EE9E4C67AA83E6BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43FF06854F6EAD783EA5C7D3F62DE4D4 /* KYDrawerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KYDrawerController/KYDrawerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KYDrawerController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KYDrawerController/KYDrawerController.modulemap";
+				PRODUCT_NAME = KYDrawerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6FC317734AFC2FB9EE2529CE36F7E5B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42DB4C381343E2332E0FD7A7CEF7C4E2 /* Pods-TrainingExe10.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TrainingExe10/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrainingExe10/Pods-TrainingExe10.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TrainingExe10;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8D732D5516DF869D13B9A051B80E33B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66D87F66849A86F7919D66197046B639 /* Pods-TrainingExe10.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TrainingExe10/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TrainingExe10/Pods-TrainingExe10.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TrainingExe10;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EADFEDAB3C6EF60A9E8C314B94786237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43FF06854F6EAD783EA5C7D3F62DE4D4 /* KYDrawerController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KYDrawerController/KYDrawerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KYDrawerController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KYDrawerController/KYDrawerController.modulemap";
+				PRODUCT_NAME = KYDrawerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		235787AAA4D655650FA93DB4FB2D308A /* Build configuration list for PBXNativeTarget "KYDrawerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37F8F4E6AF39ED0EE9E4C67AA83E6BCC /* Debug */,
+				EADFEDAB3C6EF60A9E8C314B94786237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
+				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8925568428C81559EBDDB328E37619FF /* Build configuration list for PBXNativeTarget "BmoViewPager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ED02B907ABD0F4DE5DB86F798CEB109 /* Debug */,
+				33490196A4E3EF18B285AF25083DE047 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBA138B07DCC9F423CF3BD3EE011D92D /* Build configuration list for PBXNativeTarget "Pods-TrainingExe10" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D732D5516DF869D13B9A051B80E33B5 /* Debug */,
+				6FC317734AFC2FB9EE2529CE36F7E5B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,8 +1,8 @@
 //
-//  LoadData.swift
+//  NetworkManager.swift
 //  TrainingExe89
 //
-//  Created by Trung Kien on 7/4/18.
+//  Created by Trung Kien on 7/5/18.
 //  Copyright © 2018 Trung Kien. All rights reserved.
 //
 
@@ -21,11 +21,11 @@ class NetworkManager {
         return _instance
     }
     
-    func getData(key: String){
+    func getData(key: String, type: String){
         var arrMusic = [Music]()
         
         var escapedString = key.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)
-        var urlPath = "https://itunes.apple.com/search?term=\(escapedString!)&media=music"
+        var urlPath = "https://itunes.apple.com/search?term=\(escapedString!)&media=\(type)"
         
         let urlRequest = URLRequest(url: URL(string: urlPath)!)
         let session = URLSession.shared
@@ -37,7 +37,7 @@ class NetworkManager {
                     let arrMusicData = json["results"] as? [[String: Any]] ?? []
                     for i in 0..<arrMusicData.count{
                         var music = Music(json: arrMusicData[i])
-                       
+                        
                         arrMusic.append(music)
                     }
                     DispatchQueue.main.async {
@@ -56,36 +56,36 @@ class NetworkManager {
     
     func getDataWithClosure(key : String) {
         var arrMusic = [Music]()
-    
+        
         var escapedString = key.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed)
         var urlPath = "https://itunes.apple.com/search?term=\(escapedString!)&media=music"
-    
+        
         let urlRequest = URLRequest(url: URL(string: urlPath)!)
         let session = URLSession.shared
         let task = session.dataTask(with: urlRequest) { (data, response, error) in
-        guard error == nil else{ return }
-        guard let responseData = data else{ return }
-        do{
-            if let json = try JSONSerialization.jsonObject(with: responseData, options: .allowFragments) as? [String: Any]{
-                let arrMusicData = json["results"] as? [[String: Any]] ?? []
-                for i in 0..<arrMusicData.count{
-                    var music = Music(json: arrMusicData[i])
-                    arrMusic.append(music)
-                }
-                
-                DispatchQueue.main.async {
-                    print("count : ")
-                    self.didLoadData!(arrMusic)
+            guard error == nil else{ return }
+            guard let responseData = data else{ return }
+            do{
+                if let json = try JSONSerialization.jsonObject(with: responseData, options: .allowFragments) as? [String: Any]{
+                    let arrMusicData = json["results"] as? [[String: Any]] ?? []
+                    for i in 0..<arrMusicData.count{
+                        var music = Music(json: arrMusicData[i])
+                        arrMusic.append(music)
+                    }
                     
+                    DispatchQueue.main.async {
+                        print("count : ")
+                        self.didLoadData!(arrMusic)
+                        
+                    }
                 }
             }
-        }
-        catch{
-    
+            catch{
+                
             }
         }
-    
-    task.resume()
+        
+        task.resume()
     }
     
     func getDataWithNotification(key : String) {
@@ -110,7 +110,7 @@ class NetworkManager {
                     DispatchQueue.main.async {
                         let name = Notification.Name(rawValue: "SENDDATA")
                         NotificationCenter.default.post(name: name, object: arrMusic)
-                       
+                        
                     }
                 }
             }
@@ -123,5 +123,5 @@ class NetworkManager {
     }
     
     
-   
+    
 }
